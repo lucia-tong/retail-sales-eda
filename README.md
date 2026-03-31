@@ -13,21 +13,19 @@ Un análisis exploratorio de casi 100.000 transacciones de compra-venta en centr
 ## estructura
 
 ```
-retail-sales-eda/
-├── retail_sales_eda.ipynb   # análisis completo con pandas
-└── README.md
+retail/
+├── data/
+│   └── datos_ventas_centros_comerciales.csv  # Dataset 
+├── retail.ipynb                    # Notebook 
+└── README.md                                
 ```
 
 ## cómo ejecutarlo
 
 ```bash
 pip install pandas jupyter
-jupyter notebook retail_sales_eda.ipynb
+jupyter notebook retail.ipynb
 ```
-
-necesitas el archivo `datos_ventas_centros_comerciales.csv` en la misma carpeta. puedes descargarlo desde [Kaggle — Istanbul Shopping Mall Sales](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset).
-
-actualiza la ruta del CSV en la primera celda del notebook.
 
 ## resultados principales
 

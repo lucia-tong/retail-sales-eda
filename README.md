@@ -1,16 +1,16 @@
-# Retail Sales EDA — Centros Comerciales Istanbul
+# Retail Sales EDA — Istanbul Shopping Centers
 
-Un análisis exploratorio de casi 100.000 transacciones de compra-venta en centros comerciales de Estambul (2021–2022). Proyecto del Máster en Data & AI — Nuclio Digital School.
+An exploratory data analysis (EDA) of nearly 100,000 sales transactions across shopping malls in Istanbul (2021–2022). Developed as part of the Master’s in Data & AI — Nuclio Digital School.
 
-## qué hace
+## Key Features
 
-* calcula el total de ingresos generados por todas las ventas
-* identifica el centro comercial y la categoría con más facturación
-* encuentra el día con más ventas y el cliente que más gastó
-* calcula la distribución porcentual de ventas por categoría
-* analiza el día de la semana con más ventas por cada centro comercial
+* Revenue Calculation: Computes the total income generated across all sales transactions.
+* Leaderboard Identification: Pinpoints the highest-grossing shopping centers and product categories.
+* Peak Activity Tracking: Identifies the specific date with the highest sales volume and the top-spending customer.
+* Market Share Analysis: Calculates the percentage distribution of sales by category.
+* Temporal Trends: Analyzes the peak day of the week for sales for each individual shopping mall.
 
-## estructura
+## Project Structure
 
 ```
 retail/
@@ -20,21 +20,21 @@ retail/
 └── README.md                                
 ```
 
-## cómo ejecutarlo
+## Installation & Usage
 
 ```bash
 pip install pandas jupyter
 jupyter notebook retail.ipynb
 ```
 
-## resultados principales
+## Key Insights
 
-* facturación total: ~1.490 millones
-* centro con más ventas: Mall of Istanbul
-* categoría líder: Clothing (34.5% de los ingresos)
-* producto más caro: categoría Toys
-* cantidad promedio por transacción: 3 unidades
+* Total Revenue: ~1.49 billion.
+* Top Performing Mall: Mall of Istanbul.
+* Leading Category: Clothing (accounting for 34.5% of total revenue).
+* Highest Price Point: Found within the Toys category.
+* Average Basket Size: 3 units per transaction.
 
-## stack
+## Tech Stack
 
-python · pandas · jupyter
+Python · Pandas · Jupyter Notebook
